@@ -31,12 +31,11 @@
 img {
 	max-width: 100%;
 	height: auto;
-	border-radius: 50%;
 }
 
 html {
 	font-family: "Barlow Semi Condensed", sans-serif;
-	font: 13px;
+	font: 16px;
 	color: var(--dark-blue);
 }
 
@@ -48,7 +47,27 @@ html {
 /* individual testimonial styles */
 .person {
 	border: 1px solid black;
+	margin: 1.5rem 1.5rem 0 1.5rem;
+	padding: 2rem;
+	border-radius: 0.5rem;
 }
+.author {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	gap: 1rem;
+}
+.author img {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+}
+
+.person-1 {
+	background-color: var(--primary-violet);
+	color: white;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
