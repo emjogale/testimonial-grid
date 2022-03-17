@@ -2,9 +2,11 @@
 :root {
 	--primary-violet: hsl(263, 55%, 52%);
 	--light-violet: hsl(263, 75%, 72%);
-	--primary-dark-grayish-blue: hsl(240, 18%, 77%);
+	--primary-dark-grayish-blue: #babacf;
 	--primary-dark-blackish-blue: hsl(219, 29%, 14%);
+	--primary-paler-blackish-blue: hsl(217, 19%, 35%);
 	--neutral-light-gray: hsl(0, 0%, 81%);
+	--neutral-darker-gray: hsl(0, 0%, 78%);
 	--neutral-grayish-blue: hsl(210, 46%, 95%);
 }
 
@@ -44,17 +46,21 @@ html {
 .container {
 	min-height: 100vh;
 	display: flex;
+	padding: 5.4rem 1.85rem 1.85rem 1.85rem;
+	margin-bottom: 1rem;
+	background-color: var(--neutral-grayish-blue);
 }
 .grid {
 	display: grid;
+
+	gap: 2.5rem;
 }
 
 /* generic testimonial styles */
 .person {
-	border: 1px solid black;
-	margin: 2rem 1.5rem 0 2rem;
 	padding: 2rem 2.4rem 2.4rem 2.4rem;
 	border-radius: 0.5rem;
+	background-color: white;
 }
 .author {
 	display: flex;
@@ -67,9 +73,11 @@ html {
 	width: 28px;
 	height: 28px;
 	border-radius: 50%;
+	border: 2px solid transparent;
 }
 
 .author-name p {
+	margin-top: 4px;
 	opacity: 50%;
 }
 
@@ -77,7 +85,7 @@ p.summary {
 	font-size: 1.54rem;
 	font-weight: 600;
 	line-height: 24px;
-	margin-bottom: 3rem;
+	margin-bottom: 1.5rem;
 }
 
 p.review {
@@ -90,12 +98,32 @@ p.review {
 .person-1 {
 	background: var(--primary-violet) url(./images/bg-pattern-quotation.svg)
 		no-repeat right top;
-
+	color: white;
+}
+.person-1 img,
+.person-4 img {
+	border-color: var(--light-violet);
+}
+.person-2,
+.person-4 {
 	color: white;
 }
 
-.person-1 img {
-	border: 2px solid var(--light-violet);
+.person-2 {
+	background-color: var(--primary-paler-blackish-blue);
+}
+
+.person-4 {
+	background-color: var(--primary-dark-blackish-blue);
+}
+
+.person-3,
+.person-5 {
+	box-shadow: 10px 10px 8px 0 var(--neutral-darker-gray);
+}
+
+/* wider screen styles  */
+@media only screen and (min-width: 1150px) {
 }
 
 /* attribution styles */
