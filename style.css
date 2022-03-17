@@ -97,7 +97,7 @@ p.review {
 
 .person-1 {
 	background: var(--primary-violet) url(./images/bg-pattern-quotation.svg)
-		no-repeat right top;
+		no-repeat right 50px top;
 	color: white;
 }
 .person-1 img,
@@ -124,14 +124,12 @@ p.review {
 
 /* wider screen styles  */
 @media only screen and (min-width: 1150px) {
-	.grid {
-		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(2, 1fr);
+	.container {
+		height: 570px;
 	}
-
-	.person-1 {
-		grid-column-start: span 2;
-		grid-row-end: span 1;
+	.grid {
+		height: 100%;
+		grid-template-areas: "top top top top top" "bottom bottom bottom bottom bottom";
 	}
 }
 
