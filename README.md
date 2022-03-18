@@ -57,16 +57,11 @@ I have only scratched the surface of what grid layouts can be used for so will b
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@emjogale](https://www.frontendmentor.io/profile/emjogale)
+- Twitter - [@emmagale2635](https://www.twitter.com/emmagale2635)
 
 ## Acknowledgments
 
 I got a lot of inspiration from Grace Snow's solution to this project - particularly the use of blockquote elements for the individual testimonials and a hidden heading for accessibility.
 
 - [Mobile-first CSS grid layout, with scss, and flexbox in card headers by Grace Snow](https://www.frontendmentor.io/solutions/mobilefirst-css-grid-layout-with-scss-and-flexbox-in-card-headers-gyfp18V1o)
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
