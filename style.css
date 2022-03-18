@@ -46,8 +46,9 @@ html {
 .container {
 	min-height: 100vh;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 5.4rem 1.85rem 1.85rem 1.85rem;
-	margin-bottom: 1rem;
 	background-color: var(--neutral-grayish-blue);
 }
 .grid {
@@ -97,7 +98,7 @@ p.review {
 
 .person-1 {
 	background: var(--primary-violet) url(./images/bg-pattern-quotation.svg)
-		no-repeat right 50px top;
+		no-repeat right 30px top;
 	color: white;
 }
 .person-1 img,
@@ -125,11 +126,29 @@ p.review {
 /* wider screen styles  */
 @media only screen and (min-width: 1150px) {
 	.container {
-		height: 570px;
+		width: 100%;
+		padding: 0;
 	}
 	.grid {
-		height: 100%;
-		grid-template-areas: "top top top top top" "bottom bottom bottom bottom bottom";
+		max-height: 572px;
+		max-width: 1100px;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 1fr 1fr;
+	}
+	.person-1 {
+		grid-column: span 2;
+		grid-row: span 1;
+		background-position: right 80px top;
+	}
+	.person-3 {
+		grid-column-start: 1;
+	}
+	.person-4 {
+		grid-column: span 2;
+	}
+	.person-5 {
+		grid-column-start: 4;
+		grid-row: 1/3;
 	}
 }
 
