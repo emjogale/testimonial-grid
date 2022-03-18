@@ -2,7 +2,7 @@
 :root {
 	--primary-violet: hsl(263, 55%, 52%);
 	--light-violet: hsl(263, 75%, 72%);
-	--primary-dark-grayish-blue: #babacf;
+	--primary-dark-grayish-blue: hsl(240, 18%, 77%);
 	--primary-dark-blackish-blue: hsl(219, 29%, 14%);
 	--primary-paler-blackish-blue: hsl(217, 19%, 35%);
 	--neutral-light-gray: hsl(0, 0%, 81%);
