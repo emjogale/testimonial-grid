@@ -3,7 +3,7 @@
 	--primary-violet: hsl(263, 55%, 52%);
 	--light-violet: hsl(263, 75%, 72%);
 	--primary-dark-grayish-blue: hsl(240, 18%, 77%);
-	--primary-dark-blackish-blue: hsl(219, 29%, 14%);
+	--primary-dark-blackish-blue: hsl(217, 30%, 14%);
 	--primary-paler-blackish-blue: hsl(217, 19%, 35%);
 	--neutral-light-gray: hsl(0, 0%, 81%);
 	--neutral-darker-gray: hsl(0, 0%, 78%);
@@ -121,6 +121,7 @@ p.review {
 .person-3,
 .person-5 {
 	box-shadow: 10px 10px 8px -5px var(--neutral-darker-gray);
+	color: var(--primary-paler-blackish-blue);
 }
 
 /* wider screen styles  */
