@@ -85,20 +85,20 @@ html {
 p.summary {
 	font-size: 1.54rem;
 	font-weight: 600;
-	line-height: 24px;
+	line-height: 1.5;
 	margin-bottom: 1.5rem;
 }
 
 p.review {
 	opacity: 70%;
-	line-height: 18px;
+	line-height: 1.125;
 }
 
 /* specific card styles */
 
 .person-1 {
 	background: var(--primary-violet) url(./images/bg-pattern-quotation.svg)
-		no-repeat right 30px top;
+		no-repeat right 2rem top;
 	color: white;
 }
 .person-1 img,
@@ -139,7 +139,7 @@ p.review {
 	.person-1 {
 		grid-column: span 2;
 		grid-row: span 1;
-		background-position: right 80px top;
+		background-position: right 5rem top;
 	}
 	.person-3 {
 		grid-column-start: 1;
